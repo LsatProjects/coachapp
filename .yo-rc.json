@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "br.com.lsat.coachapp",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.7.0",
+    "applicationType": "monolith",
+    "baseName": "coachapp",
+    "packageName": "br.com.lsat.coachapp",
+    "packageFolder": "br/com/lsat/coachapp",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Y2E1NDlmNjJiZjAyODc4N2M4NDc2NDA3OTYyNWVhZmNhZWMyZjQ5MDIwZjAyNjMxMzFjNmU0MTcwM2ZhNjkwZjNmOTUwZTY4Y2FjYjk1MzA1ODBkOGYyMTljNTRhYTg5MTgzZWE0NmE0NmEzNjkxZmZlNDA5MDUxNmU2OTQzMjA=",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "pt-br"
+    ]
+  }
+}
