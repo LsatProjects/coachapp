@@ -1,0 +1,23 @@
+{
+    "coachappApp": {
+        "sport": {
+            "home": {
+                "title": "Sports",
+                "createLabel": "Criar novo Sport",
+                "createOrEditLabel": "Criar ou editar Sport",
+                "search": "Pesquisar por Sport"
+            },
+            "created": "Um novo Sport foi criado com o identificador {{ param }}",
+            "updated": "Um Sport foi atualizado com o identificador {{ param }}",
+            "deleted": "Um Sport foi deletado com o identificador {{ param }}",
+            "delete": {
+                "question": "Tem certeza de que deseja excluir Sport {{ id }}?"
+            },
+            "detail": {
+                "title": "Sport"
+            },
+            "name": "Name",
+            "description": "Description"
+        }
+    }
+}

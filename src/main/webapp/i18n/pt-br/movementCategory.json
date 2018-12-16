@@ -1,0 +1,24 @@
+{
+    "coachappApp": {
+        "movementCategory": {
+            "home": {
+                "title": "Movement Categories",
+                "createLabel": "Criar novo Movement Category",
+                "createOrEditLabel": "Criar ou editar Movement Category",
+                "search": "Pesquisar por Movement Category"
+            },
+            "created": "Um novo Movement Category foi criado com o identificador {{ param }}",
+            "updated": "Um Movement Category foi atualizado com o identificador {{ param }}",
+            "deleted": "Um Movement Category foi deletado com o identificador {{ param }}",
+            "delete": {
+                "question": "Tem certeza de que deseja excluir Movement Category {{ id }}?"
+            },
+            "detail": {
+                "title": "Movement Category"
+            },
+            "name": "Name",
+            "description": "Description",
+            "sport": "Sport"
+        }
+    }
+}

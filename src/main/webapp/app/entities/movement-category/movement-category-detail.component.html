@@ -1,0 +1,37 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="movementCategory">
+            <h2><span jhiTranslate="coachappApp.movementCategory.detail.title">Movement Category</span> {{movementCategory.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="coachappApp.movementCategory.name">Name</span></dt>
+                <dd>
+                    <span>{{movementCategory.name}}</span>
+                </dd>
+                <dt><span jhiTranslate="coachappApp.movementCategory.description">Description</span></dt>
+                <dd>
+                    <span>{{movementCategory.description}}</span>
+                </dd>
+                <dt><span jhiTranslate="coachappApp.movementCategory.sport">Sport</span></dt>
+                <dd>
+                    <div *ngIf="movementCategory.sport">
+                        <a [routerLink]="['/sport', movementCategory.sport?.id, 'view']">{{movementCategory.sport?.name}}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/movement-category', movementCategory.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

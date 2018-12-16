@@ -1,0 +1,25 @@
+{
+    "coachappApp": {
+        "movement": {
+            "home": {
+                "title": "Movements",
+                "createLabel": "Create a new Movement",
+                "createOrEditLabel": "Create or edit a Movement",
+                "search": "Search for Movement"
+            },
+            "created": "A new Movement is created with identifier {{ param }}",
+            "updated": "A Movement is updated with identifier {{ param }}",
+            "deleted": "A Movement is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Movement {{ id }}?"
+            },
+            "detail": {
+                "title": "Movement"
+            },
+            "name": "Name",
+            "abbreviation": "Abbreviation",
+            "note": "Note",
+            "movementCategory": "Movement Category"
+        }
+    }
+}

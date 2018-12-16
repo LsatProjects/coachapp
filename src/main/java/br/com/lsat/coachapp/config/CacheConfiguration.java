@@ -41,6 +41,9 @@ public class CacheConfiguration {
             cm.createCache(br.com.lsat.coachapp.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(br.com.lsat.coachapp.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(br.com.lsat.coachapp.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(br.com.lsat.coachapp.domain.Sport.class.getName(), jcacheConfiguration);
+            cm.createCache(br.com.lsat.coachapp.domain.MovementCategory.class.getName(), jcacheConfiguration);
+            cm.createCache(br.com.lsat.coachapp.domain.Movement.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }
