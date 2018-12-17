@@ -45,7 +45,7 @@
                 <td>{{movement.note}}</td>
                 <td>
                     <div *ngIf="movement.movementCategory">
-                        <a [routerLink]="['../movement-category', movement.movementCategory?.id, 'view' ]" >{{movement.movementCategory?.id}}</a>
+                        <a [routerLink]="['../movement-category', movement.movementCategory?.id, 'view' ]" >{{movement.movementCategory?.name}}</a>
                     </div>
                 </td>
                 <td class="text-right">

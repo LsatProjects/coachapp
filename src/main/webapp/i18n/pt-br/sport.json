@@ -2,22 +2,22 @@
     "coachappApp": {
         "sport": {
             "home": {
-                "title": "Sports",
-                "createLabel": "Criar novo Sport",
-                "createOrEditLabel": "Criar ou editar Sport",
-                "search": "Pesquisar por Sport"
+                "title": "Esportes",
+                "createLabel": "Criar novo Esporte",
+                "createOrEditLabel": "Criar ou editar Esporte",
+                "search": "Pesquisar por Esporte"
             },
-            "created": "Um novo Sport foi criado com o identificador {{ param }}",
-            "updated": "Um Sport foi atualizado com o identificador {{ param }}",
-            "deleted": "Um Sport foi deletado com o identificador {{ param }}",
+            "created": "Um novo Esporte foi criado com o identificador {{ param }}",
+            "updated": "Um Esporte foi atualizado com o identificador {{ param }}",
+            "deleted": "Um Esporte foi deletado com o identificador {{ param }}",
             "delete": {
-                "question": "Tem certeza de que deseja excluir Sport {{ id }}?"
+                "question": "Tem certeza de que deseja excluir Esporte {{ id }}?"
             },
             "detail": {
-                "title": "Sport"
+                "title": "Esporte"
             },
-            "name": "Name",
-            "description": "Description"
+            "name": "Nome",
+            "description": "Descrição"
         }
     }
 }

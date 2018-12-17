@@ -20,7 +20,7 @@
                 <dt><span jhiTranslate="coachappApp.movement.movementCategory">Movement Category</span></dt>
                 <dd>
                     <div *ngIf="movement.movementCategory">
-                        <a [routerLink]="['/movement-category', movement.movementCategory?.id, 'view']">{{movement.movementCategory?.id}}</a>
+                        <a [routerLink]="['/movement-category', movement.movementCategory?.id, 'view']">{{movement.movementCategory?.name}}</a>
                     </div>
                 </dd>
             </dl>

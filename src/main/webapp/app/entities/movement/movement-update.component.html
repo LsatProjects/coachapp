@@ -35,7 +35,7 @@
                     <label class="form-control-label" jhiTranslate="coachappApp.movement.movementCategory" for="field_movementCategory">Movement Category</label>
                     <select class="form-control" id="field_movementCategory" name="movementCategory" [(ngModel)]="movement.movementCategory"  required>
                         <option *ngIf="!editForm.value.movementCategory" [ngValue]="null" selected></option>
-                        <option [ngValue]="movementCategoryOption.id === movement.movementCategory?.id ? movement.movementCategory : movementCategoryOption" *ngFor="let movementCategoryOption of movementcategories; trackBy: trackMovementCategoryById">{{movementCategoryOption.id}}</option>
+                        <option [ngValue]="movementCategoryOption.id === movement.movementCategory?.id ? movement.movementCategory : movementCategoryOption" *ngFor="let movementCategoryOption of movementcategories; trackBy: trackMovementCategoryById">{{movementCategoryOption.name}}</option>
                     </select>
                 </div>
                 <div [hidden]="!(editForm.controls.movementCategory?.dirty && editForm.controls.movementCategory?.invalid)">
